@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div id="lineH1"></div>
+
+    <div id="calculadora">
+        <div id="display"><p id="resultado"></p></div>
+        <div id="teclado">
+            <div id="line0" class="lines">
+                <button id="numOff" class="teclas" onclick="apagar()" style="background-color: rgb(201, 0, 0);">AC</button>
+                <button id="numAC" class="teclas" onclick="addValor('**')">x²</button>
+                <button id="numDiv" class="teclas" onclick="addValor('/')">/</button>
+            </div>
+            <div id="line1" class="lines">
+                <button id="numMul" class="teclas" onclick="addValor('x')">x</button>
+                <button id="numSo" class="teclas" onclick="addValor('+')">+</button>
+                <button id="numSu" class="teclas" onclick="addValor('-')">-</button>
+            </div>
+            <div id="line2" class="lines">
+                <button id="num7" class="teclas" onclick="addValor(7)">7</button>
+                <button id="num8" class="teclas" onclick="addValor(8)">8</button>
+                <button id="num9" class="teclas" onclick="addValor(9)">9</button>
+            </div>
+            <div id="line3" class="lines">
+                <button id="num4" class="teclas" onclick="addValor(4)">4</button>
+                <button id="num5" class="teclas" onclick="addValor(5)">5</button>
+                <button id="num6" class="teclas" onclick="addValor(6)">6</button>
+            </div>
+            <div id="line4" class="lines">
+                <button id="num1" class="teclas" onclick="addValor(1)">1</button>
+                <button id="num2" class="teclas" onclick="addValor(2)">2</button>
+                <button id="num3" class="teclas" onclick="addValor(3)">3</button>
+            </div>
+            <div id="line5" class="lines">
+                <button id="numP" class="teclas" onclick="addValor('.')">.</button>
+                <button id="num0" class="teclas" onclick="addValor(0)">0</button>
+                <button id="igual" class="teclas" onclick="resu()" style="background-color: rgb(63, 163, 63);">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

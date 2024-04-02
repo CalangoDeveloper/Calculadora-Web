@@ -1,0 +1,75 @@
+*{
+    font-family: arial;
+    font-size: 24pt;
+    color: white;
+}
+body{
+    background-color: rgb(0, 13, 70);
+    text-align: center;
+}
+h1{
+    margin-top: 40px;
+    font-size: 40px;
+    text-shadow: 0.1em 0.06em 0.02em rgb(31, 85, 235)
+}
+#lineH1{
+    background-color: white;
+
+    width: 260px;
+    height: 2px;
+
+    margin-top: -24px;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 3px 1px 1px 1px rgb(31, 85, 235);
+}
+#calculadora{
+    width: 370px;
+    padding: 8px;
+
+    background-color: rgb(0, 25, 134);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    box-shadow: 3px 2px 1px 1px rgb(31, 85, 235);
+
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#display{
+    display: flex;
+    width: 360px;
+    height: 100px;
+    background-color: rgb(32, 41, 82);
+
+    border-radius: 12px;
+    border: 2px solid rgb(31, 85, 235);
+    box-shadow: 3px 2px 1px 1px rgb(31, 85, 235);
+}
+#resultado{
+    font-size: 48pt;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 18px;
+    text-shadow: 0.04em 0.03em 0.02em rgb(31, 85, 235)
+
+}
+.lines{
+    display: flex;
+}
+.teclas{
+    margin-top: 10px;
+    margin-right: 8px;
+    width: 120px;
+    height: 60px;
+
+    background-color: black;
+    border-radius: 12px;
+    border-color: rgb(31, 85, 235);
+    box-shadow: 3px 2px 1px 1px rgb(31, 85, 235);
+    color: white;
+}
+.teclas:hover{
+    background-color:  rgb(23, 27, 46);
+}
